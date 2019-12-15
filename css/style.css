@@ -24,7 +24,7 @@ li {
 }
 
 .header {
-  background-color: skyblue;
+  background-color: #f5b4b3;
   height: 50px;
   font-size: 1.5rem;
 }
@@ -76,7 +76,7 @@ li {
 }
 
 .side_menu li {
-  background-color: skyblue;
+  background-color: #f5b4b3;
   height: 6rem;
   margin-bottom: 10px;
 }
@@ -94,7 +94,11 @@ li {
 }
 
 .side_menu .point {
-  background-color: mediumturquoise;
+  background-color: #fcefce;
+}
+
+.side_menu .point a {
+  color: #4d4d4d;
 }
 
 .content {
