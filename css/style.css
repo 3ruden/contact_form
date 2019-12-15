@@ -1,0 +1,152 @@
+html {
+  font-size: 62.25%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: skyblue;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.top {
+  float: right;
+}
+
+.top_menu li {
+  float: left;
+  width: auto;
+}
+
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.image_area {
+  width: 100%;
+}
+
+.wrapper {
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+
+.side_menu {
+  width: 300px;
+  float: left;
+}
+
+.side_menu li {
+  background-color: skyblue;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+
+.side_menu li:hover {
+  opacity: 0.6;
+}
+
+.side_menu li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+
+.side_menu .point {
+  background-color: mediumturquoise;
+}
+
+.content {
+  width: 660px;
+  margin-left: 20px;
+  float: left;
+  font-size: 1.5rem;
+}
+
+.contact tr {
+  height: 7rem;
+}
+
+.contact th {
+  width: 150px;
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.contact input[type="text"],
+.contact textarea {
+  width: 480px;
+}
+
+.contact .btn {
+  text-align: center;
+}
+
+.contact .btn input {
+  background-color: mediumturquoise;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.contact .btn input:hover {
+  opacity: 0.6;
+}
+
+.footer {
+  background-color: #4d4d4d;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
